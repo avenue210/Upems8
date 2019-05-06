@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="￥ : 0.00"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_weixin"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_weixinzhifu_200" />
+
+        <ImageView
+            android:id="@+id/iv_zhifubao"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_zhifubaozhifu_200" />
+
+        <ImageView
+            android:id="@+id/iv_yu_e"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_yu_e_200"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_shuaka"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_shuaka_200"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_niriliya"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_niriliya_zhifu_200" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <paths>
+
+        <!--下载存放-->
+        <external-path name="*" path="download" />
+        <!--拍照存放-->
+        <!--<external-path name="*" path="DCIM"/>-->
+        <!--缓存存放-->
+        <!--<external-cache-path name="*" path="cache"/>-->
+        <!--App目录-->
+        <!--<external-path name="*" path="Mobileoffice"/>-->
+        <!--表示应用程序外部存储区根目录中的文件-->
+        <!--<external-files-path name="download" path="download" />-->
+        <!--表示应用程序外部缓存区根目录中的文件-->
+        <!--<external-cache-path name="download" path="download" />-->
+        <!--表示应用程序内部存储区中的文件/子目录中的文件-->
+        <!--<files-path name="download" path="download" />-->
+        <!--表示应用程序内部存储区缓存子目录中的文件-->
+        <!--<cache-path name="download" path="download" />-->
+
+    </paths>
+
+</resources>

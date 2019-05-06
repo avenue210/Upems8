@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_200"
+            app:ripple_color="@color/md_grey_200"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_200"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_300"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_keyboard_delete"
+            app:corners_radius="9dp"
+            app:pressed_drawable="@color/md_grey_300"
+            app:ripple_color="@color/md_grey_300"
+            app:ripple_enable="true"
+            app:stroke_color="@color/md_grey_300"
+            app:stroke_width="0dp"
+            app:unPressed_drawable="@color/md_grey_500"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+</LinearLayout>

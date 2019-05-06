@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--<usb-device-->
+        <!--product-id="688"-->
+        <!--vendor-id="1118" />-->
+    <!--<usb-device-->
+        <!--product-id="24577"-->
+        <!--vendor-id="1027" /> &lt;!&ndash; FT232RL &ndash;&gt;-->
+    <!--<usb-device-->
+        <!--product-id="24596"-->
+        <!--vendor-id="1027" /> &lt;!&ndash; FT232H &ndash;&gt;-->
+    <!--<usb-device-->
+        <!--product-id="24592"-->
+        <!--vendor-id="1027" /> &lt;!&ndash; FT2232C/D/HL &ndash;&gt;-->
+    <!--<usb-device-->
+        <!--product-id="24593"-->
+        <!--vendor-id="1027" /> &lt;!&ndash; FT4232HL &ndash;&gt;-->
+    <!--<usb-device-->
+        <!--product-id="24597"-->
+        <!--vendor-id="1027" /> &lt;!&ndash; FT230X &ndash;&gt;-->
+    <!--<usb-device-->
+        <!--product-id="45088"-->
+        <!--vendor-id="1412" /> &lt;!&ndash; REX-USB60F &ndash;&gt;-->
+
+
+    <!--摄像头 all device of UVC -->
+    <usb-device
+        class="239"
+        subclass="2" />
+    <!--485 锁控板-->
+    <usb-device
+        product-id="29987"
+        vendor-id="6790" />
+    <usb-device
+        product-id="21795"
+        vendor-id="6790" />
+
+</resources>

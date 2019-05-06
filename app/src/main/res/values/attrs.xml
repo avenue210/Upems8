@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--PasswordInputEdt-->
+    <declare-styleable name="PasswordInputEdt">
+        <attr name="numLength" format="integer" />              <!-- 输入位数的长度-->
+        <attr name="isPwd" format="boolean" />                  <!-- 是否显示为密码-->
+        <attr name="autoCloseKeyBoard" format="boolean" />      <!-- 输入完成后是否自动关闭键盘-->
+        <attr name="isNumber" format="boolean" />               <!-- 是否只能输入数字-->
+        <attr name="widthSpace" format="dimension" />           <!-- 框框之间的横向间隙-->
+        <attr name="heightSpace" format="dimension" />          <!-- 框框之间的纵向间隙-->
+        <attr name="rectStroke" format="dimension" />           <!-- 框框的宽度-->
+        <attr name="txtSize" format="dimension" />              <!-- 字体的大小-->
+        <attr name="circleRadius" format="dimension" />         <!-- 密码格式中圆形的半径-->
+        <attr name="bgFill" format="boolean" />                 <!-- 框框是否附带背景-->
+        <attr name="textColor" format="color" />                <!-- 字体的颜色-->
+        <attr name="rectNormalColor" format="color" />          <!-- 框框没选中时候默认的颜色-->
+        <attr name="rectChooseColor" format="color" />          <!-- 框框选中时候默认的颜色-->
+        <attr name="pwdType" format="enum">                    <!-- 密码的类型：圆或者*号-->
+            <enum name="CIRCLE" value="0" />
+            <enum name="XINGHAO" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PasswordEditText">
+        <!-- 密码的个数 -->
+        <attr name="passwordNumber" format="integer" />
+        <!-- 密码圆点的半径 -->
+        <attr name="passwordRadius" format="dimension" />
+        <!-- 密码圆点的颜色 -->
+        <attr name="passwordColor" format="color" />
+        <!-- 分割线的颜色 -->
+        <attr name="divisionLineColor" format="color" />
+        <!-- 分割线的大小 -->
+        <attr name="divisionLineSize" format="color" />
+        <!-- 背景边框的颜色 -->
+        <attr name="bgColor" format="color" />
+        <!-- 背景边框的大小 -->
+        <attr name="bgSize" format="dimension" />
+        <!-- 背景边框的圆角大小 -->
+        <attr name="bgCorner" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

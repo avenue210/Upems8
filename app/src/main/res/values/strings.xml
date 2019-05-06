@@ -1,0 +1,376 @@
+<resources>
+    <string name="app_name">亚普达EMS系统</string>
+
+    <string name="pref_setting_customize">Language setting</string>
+    <string name="app_language_pref_key" translatable="false">app_language_pref_key</string>
+    <string name="pref_language_label">Language</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string-array name="pref_language_titles">
+        <item>English</item>
+        <item>简体中文</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>en</item>
+        <item>zh</item>
+    </string-array>
+
+    <!--串口初始化错误信息-->
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+
+    <string name="test">Function test</string>
+
+    <!--Authority test information-->
+    <string name="ok_notifyTitle">Information</string>
+    <string name="ok_notifyMsg">Lack of necessary permissions\n\nPlease click\"Setting\"-\"Permission\"-Authorize。</string>
+    <string name="ok_setting">Setting</string>
+    <string name="ok_sure">Determine</string>
+    <string name="ok_cancel">Cancel</string>
+
+    <string name="usb_baud_rate_error">Baud rate initialization failure</string>
+    <string name="usb_drive_error">USB Driver initialization failure</string>
+    <string name="usb_overtime">Out of time</string>
+    <string name="usb_open_lock_success">Unlock successfully</string>
+    <string name="usb_open_lock_error">Unlock failure</string>
+
+    <string name="usb_open_dev_success">Power on successfully</string>
+    <string name="usb_open_dev_error">Power on failure</string>
+    <string name="usb_close_dev_success">Power off successfully</string>
+    <string name="usb_close_dev_error">Power off failure</string>
+    <string name="usb_close_dev_query_success">Query successfully</string>
+    <string name="usb_close_dev_query_error">Query failure</string>
+
+    <string name="net_load">Loading...</string>
+    <string name="net_error">Network unavailability</string>
+    <string name="net_not_data">getting information failure</string>
+    <string name="net_error_1">Server connection failed</string>
+    <string name="net_error_2">Data parsing failure</string>
+
+    <string name="usb_open_lock_overtime">Unlock timeout: </string>
+    <string name="usb_open_lock_fail">Unlock failure: </string>
+    <string name="usb_open_lock">...Unlocking</string>
+
+    <string name="not_register">The device is not registered</string>
+    <string name="not_login">The device is not logged in</string>
+    <string name="login_tip_a">Company ID cannot be empty</string>
+    <string name="login_tip_b">Logon account number cannot be empty</string>
+    <string name="login_tip_c">Account password cannot be empty</string>
+    <string name="login_tip_d">Device ID cannot be empty</string>
+    <string name="login_tip_e">Can not get device ID</string>
+    <string name="login_tip_f">Can not get device type</string>
+
+    <string name="tips_a">Verifying...</string>
+    <string name="tips_b">Duplicated parcel number,please check!</string>
+    <string name="tips_is_null">It\'s empty</string>
+
+    <string name="tips_input_numbel">Please enter the quantity</string>
+    <string name="tips_input_barno_tel">Please enter parcel number and phone number</string>
+    <string name="tips_input_barno">Please enter parcel number!</string>
+    <string name="tips_input_tel">Please enter phone number</string>
+
+    <string name="tips_input_company">Please enter Company number</string>
+    <string name="tips_input_user">Please enter Account number</string>
+    <string name="tips_input_password">Please enter Password</string>
+
+    <string name="scanning_cabinet_number">Please scan cabinet ID：</string>
+    <string name="scanning_tips_a">Please scan cabinet ID first</string>
+    <string name="scanning_exception">Scanned wrong information</string>
+    <string name="scanning_exception_tip">Please scan right parcel number and lock number</string>
+    <string name="scanning_error">Not recognized the bar code / phone number</string>
+
+    <string name="net_tip_request">Network requesting</string>
+    <string name="net_tip_back_1">The server returns empty information</string>
+    <string name="net_tip_back_2">Failed to analyze returned message</string>
+    <string name="net_tip_back_3">Download completed</string>
+    <string name="net_tip_back_4">Failed to request from server</string>
+
+    <string name="net_tip_exception">Data parsing error</string>
+
+    <string name="net_tip_type_0_error_1">Failed to get the company\'s service address 1</string>
+    <string name="net_tip_type_0_error_2">Failed to get the company\'s service address 2</string>
+
+    <string name="net_tip_type_1_error_0">Login failed: </string>
+    <string name="net_tip_type_1_error_1">Login failed 1: </string>
+    <string name="net_tip_type_1_error_2">Login failed 2: The returned parameter is null</string>
+    <string name="net_tip_type_1_success">Login successful</string>
+
+    <string name="net_tip_type_2_error_1">Registration service returns abnormality</string>
+    <string name="net_tip_type_2_error_2">Registration failed:</string>
+    <string name="net_tip_type_2_success">Successful registration</string>
+
+    <string name="net_tip_type_3_error_1">Error message returned when getting a list of lockers</string>
+    <string name="net_tip_type_3_error_2">Failed to get the list of lockers</string>
+    <string name="net_tip_type_3_error_3">The list of lockers is empty</string>
+    <string name="net_tip_type_3_error_4">Please select the lattices</string>
+    <string name="net_tip_type_3_error_5">Please select the group</string>
+    <string name="net_tip_type_3_error_6">Available lattices</string>
+    <string name="net_tip_type_3_error_7">No available shelf space</string>
+
+    <string name="net_tip_type_4_error_1">Submit abnormally</string>
+    <string name="net_tip_type_4_error_2">Submit failed：</string>
+    <string name="net_tip_type_4_success">Submit successfully</string>
+
+    <string name="net_tip_type_5_error_1">Request server abnormally</string>
+    <string name="net_tip_type_5_error_2">Collecting Parcel failed:</string>
+    <string name="net_tip_type_5_error_3">Number of parcel stored is 0</string>
+    <string name="net_tip_type_5_success">Verification success</string>
+
+    <string name="dialog_item_cargo_number">Lock number</string>
+    <string name="dialog_item_odd_numbers">Parcel number</string>
+    <string name="dialog_item_tel">Phone</string>
+    <string name="dialog_item_open_lock"> Unlock</string>
+    <string name="dialog_item_delete">Delete</string>
+    <string name="dialog_item_post">Submit</string>
+    <string name="dialog_item_verification_code_fetch">Pick up with Verification code</string>
+    <string name="dialog_all_open">Open all lockers</string>
+    <string name="dialog_distribution">Distribution</string>
+    <string name="dialog_item_list_of_available_lattices">Lockers available</string>
+    <string name="dialog_item_start_distribution">Start distribution</string>
+    <string name="dialog_item_distribution_scan">Scan for distribution</string>
+    <string name="dialog_item_remove">Move</string>
+    <string name="dialog_item_deposit">Store</string>
+    <string name="dialog_item_simulated_scanning_test">Simulated scanning test</string>
+    <string name="dialog_item_submission">Submit</string>
+    <string name="dialog_item_equipment_registration">Register device</string>
+    <string name="dialog_item_company">Company ID</string>
+    <string name="dialog_item_devno">Device ID</string>
+
+    <string name="dialog_item_dev_administration">Device management</string>
+    <string name="dialog_item_dev_register">Register device</string>
+    <string name="dialog_item_dev_register_new">Register device again</string>
+    <string name="dialog_item_dev_updata">Change type</string>
+
+    <string name="dialog_item_register">Register</string>
+    <string name="dialog_item_user_login">User login</string>
+    <string name="dialog_item_user_name">User ID</string>
+    <string name="dialog_item_user_password">Password</string>
+    <string name="dialog_item_login">Login</string>
+    <string name="dialog_item_password_login">Login with password</string>
+    <string name="dialog_item_pay_by_card_login">Login with smartcard</string>
+    <string name="dialog_item_pay_by_tel">Mobile phone verification</string>
+    <string name="dialog_item_pay_by_weixin">Wechat QR code</string>
+
+    <string name="dialog_item_please_brush_your_cards">Please swipe your smartcard</string>
+    <string name="dialog_item_version_update">Version update</string>
+    <string name="dialog_item_a_new_version_of_the_test">Check for new version</string>
+    <string name="dialog_item_click_update">Click to upgrade</string>
+    <string name="dialog_item_start_installation">Start Installation</string>
+    <string name="dialog_item_specifications">Specifications：</string>
+    <string name="dialog_item_price">Price：</string>
+    <string name="dialog_item_number">Quantity：</string>
+    <string name="dialog_item_pay_by_card_fetch">Swipe your smartcard to collect your parcel</string>
+    <string name="dialog_item_pay_by_card_fetch_list">List of parcels</string>
+    <string name="dialog_item_qr_code_in">List of parcels</string>
+    <string name="dialog_item_verification_code_fetch_qr_code_in">Scan to store</string>
+    <string name="dialog_item_verification_code_fetch_qr_code">Verfication code/scan to collect</string>
+    <string name="dialog_item_exit">Quit the procedure</string>
+    <string name="dialog_item_start"> Auto-start (Check if SmartPost program is on )</string>
+
+    <string name="system_depotna">Device location</string>
+    <string name="system_fixno">Device ID</string>
+    <string name="system_libno">Position code</string>
+    <string name="back">Back</string>
+    <string name="input_tel">Please enter the cell phone number</string>
+    <string name="input_verification">Please enter the verification code</string>
+    <string name="send">Send</string>
+
+    <string name="tts_open">Opening speech prompt</string>
+
+    <string name="boardno_id">Board number</string>
+    <string name="lockno_id">Lock number</string>
+    <string name="open_electricity">Open electricity</string>
+    <string name="turn_off_electricity">Turn off electricity</string>
+    <string name="query_state">query state</string>
+    <string name="query_all_state">query all state</string>
+    <string name="all_unlocked">All unlocked</string>
+
+    <string name="handle">Loading</string>
+    <string name="open_electricity_timeout">Open electricity timeout</string>
+    <string name="open_electricity_back">Open electricity back</string>
+    <string name="open_electricity_write_failure">Open electricity Write failure</string>
+
+    <string name="close_electricity_timeout">Close electricity timeout</string>
+    <string name="close_electricity_back">Closeelectricity back</string>
+    <string name="close_electricity_write_failure">Close electricity Write failure</string>
+
+    <string name="query_timeout">Query Timeout</string>
+    <string name="query_failure">Query Failure</string>
+    <string name="query_success">Query Success</string>
+    <string name="query_success_open">Query Success : Open</string>
+    <string name="query_success_close">Query Success : Close</string>
+    <string name="query_write_write_failure">Query Write Failure</string>
+
+    <string name="all_unlocked_write_failure">All Unlocked Write Failure</string>
+    <string name="all_unlocked_write_success">All Unlocked Write Success</string>
+
+    <string name="payment_success">Payment success</string>
+    <string name="Please_sweep_code_payment">Please sweep the two-dimensional code payment.</string>
+    <string name="amount_of_money">Amount of Money</string>
+    <string name="scavenging_registration">Scavenging registration</string>
+    <string name="WeChat_scan_code_registration">Courier registration</string>
+
+    <string name="generate_order_failure">Generate order failure</string>
+    <string name="network_service_exceptions">Network service exceptions create order failure</string>
+
+    <string name="camera_resolution">Camera resolution</string>
+    <string name="deposit">Deposit</string>
+    <string name="take_out">Take out</string>
+
+    <string name="not_an_administrator">Insufficient account power</string>
+    <string name="courier_entry">Courier login</string>
+    <string name="courier_registration">Courier registration >> GO</string>
+    <string name="current_version">Current Version</string>
+    <string name="download_path_failed">Download path failed</string>
+    <string name="server_version_information_acquisition_failed">Server version information acquisition failed</string>
+    <string name="discover_new_version">Discover new version</string>
+    <string name="its_the_latest_version">It\'s the latest version.</string>
+    <string name="downloads">Downloads</string>
+    <string name="download_completion">Download completion</string>
+    <string name="Download_complete_please_click_Install">Download complete, please click Install.</string>
+    <string name="Version_detection_failed">Version detection failed</string>
+    <string name="The_number_of_input_is_larger_than_that_of_the_remaining_goods">The number of input is larger than that of the remaining goods.</string>
+
+    <string name="No_payment_address">No payment address</string>
+    <string name="Amount_to_be_paid">Amount of money</string>
+    <string name="Please_choose_payment_method">Please choose payment method</string>
+
+    <string name="SMS_verification">SMS verification</string>
+    <string name="Confirm_password">Confirm password</string>
+    <string name="Card_number">Card number</string>
+    <string name="mailbox">Mailbox</string>
+    <string name="User_name">User name</string>
+    <string name="Two_password_inconsistencies">Two password inconsistencies</string>
+    <string name="Please_input_the_mailbox">Please input the mailbox.</string>
+    <string name="Verification_Code">Verification Code</string>
+
+    <string name="Input_number">Please scan the bar code</string>
+
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+
+    <string name="take_ok_tip">Please close the door after taking the package away. Thank you for using.</string>
+    <string name="Contacts">Contacts</string>
+
+    <string name="path_a">A Path</string>
+    <string name="path_b">B Path</string>
+
+    <string name="Letter_box_login">Letter box Login</string>
+
+    <string name="Serial_port_setup">Serial port setup</string>
+
+    <string name="Please_press_the_fingerprint_module_with_your_finger">Please press the fingerprint module with your finger</string>
+
+    <string name="clean_up_success">Clearance success</string>
+    <string name="clear_failure">Clearance failure</string>
+    <string name="input_user_id">Please enter the user number</string>
+    <string name="user_add_fingerprints">The user already exists. Please add a fingerprint.</string>
+    <string name="add_user_success">Added User Success</string>
+    <string name="enter_user_numbers">Please enter the user number</string>
+    <string name="input_the_fingerprint_number">Please enter the fingerprint number</string>
+    <string name="input_the_fingerprint_number_lenght">Please enter a 4-digit number</string>
+
+    <string name="the_number_already_exists">The number already exists</string>
+    <string name="enter_the_fingerprint_for_the_first_time">The number is available. Please enter your fingerprint for the first time.</string>
+    <string name="enter_the_fingerprint_second_times">Please enter fingerprints for the second time</string>
+    <string name="operation_failed_please_reenter">Please re-enter if operation fails</string>
+    <string name="fingerprint_acquisition_success">Fingerprint Acquisition Successful</string>
+    <string name="the_fingerprint_database_is_full">Fingerprint database is full</string>
+    <string name="without_this_user">No such user</string>
+    <string name="fingerprints_already_exist">Fingerprints already exist</string>
+    <string name="fingerprint_already_exists_please_reenter">Fingerprint already exists. Please re-enter</string>
+    <string name="enter_the_fingerprint_third_times">Please enter fingerprints for the third time</string>
+    <string name="user_already_exists">User already exists</string>
+    <string name="successful_entry_user_added">Entry is successful, user add is complete</string>
+    <string name="fingerprint_successfully_added">Successful Fingerprint Addition</string>
+
+    <string name="the_user_did_not_add_fingerprints">The user did not add fingerprints</string>
+    <string name="fingerprint_list">Fingerprint list</string>
+
+    <string name="being_submitted">Submission</string>
+    <string name="submission_of_success">Submit successfully</string>
+    <string name="unlocked">Unlocking</string>
+    <string name="unlock_command_failed">The unlock command failed</string>
+    <string name="unlock_failure">Unlocking failure</string>
+    <string name="unlocking_success">Unlocking success</string>
+    <string name="unlocked_timeout">Unlocking timeout</string>
+
+    <string name="Reminder">Reminder</string>
+    <string name="Please_click_the_fingerprint_verification_to_enter_the_setup_interface">Please enter the settings interface by fingerprint verification</string>
+    <string name="Please_validate_the_entry_by_fingerprint">Please enter the storage interface by fingerprint verification</string>
+    <string name="Please_verify_the_entry_by_fingerprint">Please enter the fetch interface by fingerprint verification</string>
+    <string name="Add_administrator_fingerprin">Add Administrator/Fingerprint</string>
+    <string name="Add_user_fingerprint">Adding User/Fingerprint</string>
+    <string name="View_all_users">View all users</string>
+    <string name="Delete_all_normal_users">Delete all ordinary users</string>
+    <string name="Delete_all_administrator_users">Delete all administrator users</string>
+    <string name="Initialized_cargo_grid">Initialization of freight space</string>
+    <string name="Open_door_closed_door">Open/close the door</string>
+    <string name="Door_opening_closing_door_setup">Opening/Closing Settings</string>
+    <string name="Lock_control_board_protocol">Lock Control Board Protocol</string>
+    <string name="Lock_control_board_protocol_settings">Lock Control Board Protocol Settings</string>
+    <string name="Insufficient_user_privileges">Insufficient user privileges</string>
+    <string name="User_list_is_empty">The user list is empty</string>
+    <string name="There_is_no_outstanding_memory_record">No undelivered record</string>
+    <string name="Setup_completion">Setup completed</string>
+    <string name="Initialize_the_number_of_goods">Initialize the number of shelves</string>
+    <string name="The_number_of_cabinet_grid_can_not_be_empty">The number of cabinets/lattices should not be empty</string>
+    <string name="Initializing_data_please_wait_later">Data is being initialized, please wait a moment.</string>
+    <string name="Data_initialization_completed">Data initialization completed</string>
+    <string name="Please_enter_user_numbers">Please enter the user number</string>
+    <string name="The_user_already_exists_Please_add_the_fingerprint">The user already exists. Please add a fingerprint.</string>
+    <string name="user_does_not_exist">user does not exist</string>
+    <string name="Fingerprint_verification_success">Fingerprint Verification Successful</string>
+    <string name="Abnormal_user_information">User information exception</string>
+
+    <string name="Quantity_of_available_goods">Available Quantity</string>
+    <string name="There_is_no_available_lattice">No available grids</string>
+    <string name="Deletion_of_fingerprint_ID_succeeded">Delete Fingerprint ID Successfully</string>
+    <string name="Deletion_of_fingerprint_ID_failed">Failed to delete fingerprint ID</string>
+    <string name="Delete_success">Delete successful</string>
+    <string name="Delete_failure">Delete failed</string>
+    <string name="Your_device_does_not_support_USB_HOST">Your device does not support USB HOST!</string>
+    <string name="Application_USB_not_granted_authority">Application USB Unauthorized Limit</string>
+
+    <string name="Add_super_administrator">Add Super Administrator</string>
+    <string name="Scavenging_data">Clear data</string>
+    <string name="Serial_address_setup">Serial Address Settings</string>
+    <string name="User_number">User number</string>
+    <string name="Please_enter">Please input</string>
+    <string name="User_authentication_add">User authentication/addition</string>
+    <string name="Fingerprint_number">Fingerprint number</string>
+    <string name="Fingerprint_verification">Fingerprint Number Verification</string>
+    <string name="Please_verify_that_the_fingerprint_number_exists">Verify that the fingerprint number exists</string>
+    <string name="After_successful_fingerprint_verification_please_input_3_fingerprints_on_the_fingerprint_module_according_to_the_prompts">After the fingerprint number verification is successful, please follow the instructions and enter three fingerprints on the fingerprint module.</string>
+
+    <string name="Read_serial_number">Read the serial number</string>
+    <string name="Get_the_total_number_of_users">Get the total number of users</string>
+    <string name="Acquiring_fingerprint_capacity">Acquisition of fingerprint capacity</string>
+    <string name="Contrast_1_N">Contrast 1:N</string>
+    <string name="Delete_all_users">Delete all users</string>
+    <string name="serial_number">serial number</string>
+    <string name="User__number">User number</string>
+    <string name="Modify_serial_number">Modify the serial number</string>
+    <string name="Setting_up_serial_port_information">Setting Serial Port Information</string>
+    <string name="Add_fingerprint_1">Adding Fingerprint 1</string>
+    <string name="Add_fingerprint_2">Adding Fingerprint 2</string>
+    <string name="Add_fingerprint_3">Adding fingerprint 3</string>
+    <string name="delete_user">delete user</string>
+
+    <string name="Payment_failed">Payment failed</string>
+    <string name="Payment_by_credit_card">Payment by credit card</string>
+
+    <string name="Already_opened_number">number [ %1$s ] Already opened</string>
+    <string name="have_access_to_number">number [ %1$s ]</string>
+
+    <string name="Please_swipe_the_employee_card">Please swipe the employee card</string>
+
+    <string name="Failure_of_locking_board_connection">Failure of locking board connection</string>
+
+</resources>

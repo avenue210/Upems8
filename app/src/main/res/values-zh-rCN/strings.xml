@@ -1,0 +1,366 @@
+<resources>
+    <string name="app_name">亚普达EMS系统</string>
+
+    <string name="pref_setting_customize">语言设置</string>
+    <string name="pref_language_label">语言</string>
+    <string name="dialog_cancel">取消</string>
+
+    <!--串口初始化错误信息-->
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+
+    <string name="test">开关测试</string>
+
+    <!--权限检测提示信息-->
+    <string name="ok_notifyTitle">提示</string>
+    <string name="ok_notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="ok_setting">设置</string>
+    <string name="ok_sure">确定</string>
+    <string name="ok_cancel">取消</string>
+
+    <string name="usb_baud_rate_error">波特率初始化失败</string>
+    <string name="usb_drive_error">USB驱动初始化失败</string>
+    <string name="usb_overtime">超时</string>
+    <string name="usb_open_lock_success">开锁成功</string>
+    <string name="usb_open_lock_error">开锁失败</string>
+
+    <string name="usb_open_dev_success">开电成功</string>
+    <string name="usb_open_dev_error">开电失败</string>
+    <string name="usb_close_dev_success">关电成功</string>
+    <string name="usb_close_dev_error">关电失败</string>
+    <string name="usb_close_dev_query_success">查询成功</string>
+    <string name="usb_close_dev_query_error">查询失败</string>
+
+    <string name="net_load">加载中...</string>
+    <string name="net_error">网络不可用</string>
+    <string name="net_not_data">获取信息失败</string>
+    <string name="net_error_1">服务器连接失败</string>
+    <string name="net_error_2">数据解析失败</string>
+
+    <string name="usb_open_lock_overtime">开锁超时: </string>
+    <string name="usb_open_lock_fail">开锁失败: </string>
+    <string name="usb_open_lock">开锁中...</string>
+
+    <string name="not_register">该设备未注册</string>
+    <string name="not_login">该设备未登录</string>
+    <string name="login_tip_a">公司编号不能为空</string>
+    <string name="login_tip_b">登录账号不能为空</string>
+    <string name="login_tip_c">账号密码不能为空</string>
+    <string name="login_tip_d">设备编号不能为空</string>
+    <string name="login_tip_e">没有获取到设备ID</string>
+    <string name="login_tip_f">没有获取到设备类型</string>
+
+    <string name="tips_a">正在验证...</string>
+    <string name="tips_b">单号重复,请检查!</string>
+    <string name="tips_is_null">是空的</string>
+
+    <string name="tips_input_numbel">请输入数量</string>
+    <string name="tips_input_barno_tel">请输入单号及手机号</string>
+    <string name="tips_input_barno">请输入单号</string>
+    <string name="tips_input_tel">请输入手机号</string>
+
+    <string name="tips_input_company">请输入公司编号</string>
+    <string name="tips_input_user">请输入账号</string>
+    <string name="tips_input_password">请输入密码</string>
+
+    <string name="scanning_cabinet_number">扫描到柜号：</string>
+    <string name="scanning_tips_a">请先扫描柜子ID</string>
+    <string name="scanning_exception">扫描到错误信息</string>
+    <string name="scanning_exception_tip">请扫码正确的单号/货格号</string>
+    <string name="scanning_error">没有解析到条码/电话号</string>
+
+    <string name="net_tip_request">网络请求中</string>
+    <string name="net_tip_back_1">服务器返回信息为空</string>
+    <string name="net_tip_back_2">返回信息解析失败</string>
+    <string name="net_tip_back_3">下载完成</string>
+    <string name="net_tip_back_4">请求服务器失败</string>
+
+    <string name="net_tip_exception">数据解析错误</string>
+
+    <string name="net_tip_type_0_error_1">获取公司服务地址失败 1</string>
+    <string name="net_tip_type_0_error_2">获取公司服务地址失败 2</string>
+
+    <string name="net_tip_type_1_error_0">登录失败: </string>
+    <string name="net_tip_type_1_error_1">登录失败 1: </string>
+    <string name="net_tip_type_1_error_2">登录失败 2: 返回参数为空</string>
+    <string name="net_tip_type_1_success">登录成功</string>
+
+    <string name="net_tip_type_2_error_1">注册服务返回异常</string>
+    <string name="net_tip_type_2_error_2">注册失败:</string>
+    <string name="net_tip_type_2_success">注册成功</string>
+
+    <string name="net_tip_type_3_error_1">获取货格列表时返回错误信息</string>
+    <string name="net_tip_type_3_error_2">获取货格列表信息失败</string>
+    <string name="net_tip_type_3_error_3">获取货格列表信息为空</string>
+    <string name="net_tip_type_3_error_4">请选择货格</string>
+    <string name="net_tip_type_3_error_5">请选择柜组</string>
+    <string name="net_tip_type_3_error_6">可用货格</string>
+    <string name="net_tip_type_3_error_7">没有可用货格</string>
+
+    <string name="net_tip_type_4_error_1">提交异常</string>
+    <string name="net_tip_type_4_error_2">提交失败：</string>
+    <string name="net_tip_type_4_success">提交成功</string>
+
+    <string name="net_tip_type_5_error_1">请求服务器异常</string>
+    <string name="net_tip_type_5_error_2">取件失败:</string>
+    <string name="net_tip_type_5_error_3">存件数量为0</string>
+    <string name="net_tip_type_5_success">验证成功</string>
+
+    <string name="dialog_item_cargo_number">货格号</string>
+    <string name="dialog_item_odd_numbers">单号</string>
+    <string name="dialog_item_tel">电话</string>
+    <string name="dialog_item_open_lock">开锁</string>
+    <string name="dialog_item_delete">删除</string>
+    <string name="dialog_item_post">提交</string>
+    <string name="dialog_item_verification_code_fetch">验证码取件</string>
+    <string name="dialog_all_open">全部打开</string>
+    <string name="dialog_distribution">配送</string>
+    <string name="dialog_item_list_of_available_lattices">可用货格列表</string>
+    <string name="dialog_item_start_distribution">开始配送</string>
+    <string name="dialog_item_distribution_scan">配送扫描</string>
+
+    <string name="dialog_item_remove">移除</string>
+    <string name="dialog_item_deposit">存件</string>
+    <string name="dialog_item_simulated_scanning_test">模拟扫描测试</string>
+    <string name="dialog_item_submission">提交</string>
+    <string name="dialog_item_equipment_registration">设备注册</string>
+    <string name="dialog_item_company">服务编号</string>
+    <string name="dialog_item_devno">设备编号</string>
+
+    <string name="dialog_item_dev_administration">设备管理</string>
+    <string name="dialog_item_dev_register">设备注册</string>
+    <string name="dialog_item_dev_register_new">重新注册</string>
+    <string name="dialog_item_dev_updata">类型修改</string>
+
+    <string name="dialog_item_register">注册</string>
+    <string name="dialog_item_user_login">用户登录</string>
+    <string name="dialog_item_user_name">用户账号</string>
+    <string name="dialog_item_user_password">账号密码</string>
+    <string name="dialog_item_login">登录</string>
+    <string name="dialog_item_password_login">密码登录</string>
+    <string name="dialog_item_pay_by_card_login">刷卡登录</string>
+    <string name="dialog_item_pay_by_tel">手机验证</string>
+    <string name="dialog_item_pay_by_weixin">微信扫码</string>
+
+    <string name="dialog_item_please_brush_your_cards">请刷卡</string>
+    <string name="dialog_item_version_update">版本更新</string>
+    <string name="dialog_item_a_new_version_of_the_test">检测新版本</string>
+    <string name="dialog_item_click_update">点击更新</string>
+    <string name="dialog_item_start_installation">开始安装</string>
+    <string name="dialog_item_specifications">规格：</string>
+    <string name="dialog_item_price">价格：</string>
+    <string name="dialog_item_number">数量：</string>
+    <string name="dialog_item_pay_by_card_fetch">刷卡取件</string>
+    <string name="dialog_item_pay_by_card_fetch_list">取件列表</string>
+    <string name="dialog_item_qr_code_in">取件列表</string>
+    <string name="dialog_item_verification_code_fetch_qr_code_in">扫码存件</string>
+    <string name="dialog_item_verification_code_fetch_qr_code">验证码/扫码取件</string>
+    <string name="dialog_item_exit">退出程序</string>
+    <string name="dialog_item_start">自动启动 (检测设备是否打开EMS系统程序)</string>
+
+    <string name="system_depotna">设备位置</string>
+    <string name="system_fixno">设备编号</string>
+    <string name="system_libno">位置代码</string>
+    <string name="back">返回</string>
+    <string name="input_tel">请输入手机号</string>
+    <string name="input_verification">请输入验证码</string>
+    <string name="send">发送</string>
+
+    <string name="tts_open">开启语音提示</string>
+
+    <string name="boardno_id">板号</string>
+    <string name="lockno_id">锁号</string>
+    <string name="open_electricity">开电</string>
+    <string name="turn_off_electricity">关电</string>
+    <string name="query_state">查询状态</string>
+    <string name="query_all_state">查询全部状态</string>
+    <string name="all_unlocked">全部开锁</string>
+
+    <string name="handle">处理中...</string>
+    <string name="open_electricity_timeout">开电超时</string>
+    <string name="open_electricity_back">开电返回</string>
+    <string name="open_electricity_write_failure">开电写失败</string>
+
+    <string name="close_electricity_timeout">关电超时</string>
+    <string name="close_electricity_back">关电返回</string>
+    <string name="close_electricity_write_failure">关电写失败</string>
+
+    <string name="query_timeout">查询超时</string>
+    <string name="query_failure">查询失败</string>
+    <string name="query_success">查询成功</string>
+    <string name="query_success_open">查询成功 开</string>
+    <string name="query_success_close">查询成功 关</string>
+    <string name="query_write_write_failure">查询写失败</string>
+
+    <string name="all_unlocked_write_failure">全部开锁写失败</string>
+    <string name="all_unlocked_write_success">全部开锁写成功</string>
+
+    <string name="payment_success">支付成功</string>
+    <string name="Please_sweep_code_payment">请扫码支付</string>
+    <string name="amount_of_money">金额</string>
+    <string name="scavenging_registration">扫码注册</string>
+    <string name="WeChat_scan_code_registration">快递员注册</string>
+
+    <string name="generate_order_failure">生成订单失败</string>
+    <string name="network_service_exceptions">网络服务异常 创建订单失败</string>
+
+    <string name="camera_resolution">相机分辨率</string>
+    <string name="deposit">寄存</string>
+    <string name="take_out">取出</string>
+
+    <string name="not_an_administrator">账号权限不足</string>
+    <string name="courier_entry">快递员登录</string>
+    <string name="courier_registration">快递员注册 >> GO</string>
+    <string name="current_version">当前版本</string>
+    <string name="download_path_failed">下载路径获取失败</string>
+    <string name="server_version_information_acquisition_failed">服务器版本信息获取失败</string>
+    <string name="discover_new_version">发现新版本</string>
+    <string name="its_the_latest_version">这是最新版本</string>
+    <string name="downloads">下载中</string>
+    <string name="download_completion">下载完成</string>
+    <string name="Download_complete_please_click_Install">下载完成 请点击安装</string>
+    <string name="Version_detection_failed">版本检查失败</string>
+    <string name="The_number_of_input_is_larger_than_that_of_the_remaining_goods">输入的数量大于剩余格子的数量。</string>
+
+    <string name="No_payment_address">没有支付地址</string>
+    <string name="Amount_to_be_paid">金额</string>
+    <string name="Please_choose_payment_method">请选择支付方式</string>
+
+    <string name="SMS_verification">短信验证</string>
+    <string name="Confirm_password">密码确认</string>
+    <string name="Card_number">卡号</string>
+    <string name="mailbox">邮箱</string>
+    <string name="User_name">用户名称</string>
+    <string name="Two_password_inconsistencies">两次输入的密码不一致</string>
+    <string name="Please_input_the_mailbox">请输入邮箱</string>
+    <string name="Verification_Code">验证码</string>
+
+    <string name="Input_number">请扫描单号</string>
+
+    <string name="Sunday">周日</string>
+    <string name="Monday">周一</string>
+    <string name="Tuesday">周二</string>
+    <string name="Wednesday">周三</string>
+    <string name="Thursday">周四</string>
+    <string name="Friday">周五</string>
+    <string name="Saturday">周六</string>
+
+    <string name="take_ok_tip">请取走包裹后关门 谢谢使用</string>
+    <string name="Contacts">联系人</string>
+
+    <string name="path_a">A 地址</string>
+    <string name="path_b">B 地址</string>
+
+    <string name="Letter_box_login">信报箱登录</string>
+
+    <string name="Serial_port_setup">串口地址设置</string>
+
+    <string name="Please_press_the_fingerprint_module_with_your_finger">请将手指按压指纹模块</string>
+
+    <string name="clean_up_success">清除成功</string>
+    <string name="clear_failure">清除失败</string>
+    <string name="input_user_id">请输入用户编号</string>
+    <string name="user_add_fingerprints">该用户已存在,请添加指纹</string>
+    <string name="add_user_success">添加用户成功</string>
+    <string name="enter_user_numbers">请输入用户编号</string>
+    <string name="input_the_fingerprint_number">请输入指纹编号</string>
+    <string name="input_the_fingerprint_number_lenght">请输入4位数编号</string>
+
+    <string name="the_number_already_exists">该编号已存在</string>
+    <string name="enter_the_fingerprint_for_the_first_time">编号可用，请第一次录入指纹</string>
+    <string name="enter_the_fingerprint_second_times">请第二次录入指纹</string>
+    <string name="operation_failed_please_reenter">操作失败 请重新录入</string>
+    <string name="fingerprint_acquisition_success">指纹采集成功</string>
+    <string name="the_fingerprint_database_is_full">指纹数据库已满</string>
+    <string name="without_this_user">无此用户</string>
+    <string name="fingerprints_already_exist">指纹已存在</string>
+    <string name="fingerprint_already_exists_please_reenter">指纹已存在 请重新录入</string>
+    <string name="enter_the_fingerprint_third_times">请第三次录入指纹</string>
+    <string name="user_already_exists">用户已存在</string>
+    <string name="successful_entry_user_added">录入成功，用户添加完成</string>
+    <string name="fingerprint_successfully_added">添加指纹成功</string>
+
+    <string name="the_user_did_not_add_fingerprints">该用户没有添加指纹</string>
+    <string name="fingerprint_list">指纹列表</string>
+
+    <string name="being_submitted">正在提交</string>
+    <string name="submission_of_success">提交成功</string>
+    <string name="unlocked">正在开锁</string>
+    <string name="unlock_command_failed">开锁命令失败</string>
+    <string name="unlock_failure">开锁失败</string>
+    <string name="unlocking_success">开锁成功</string>
+    <string name="unlocked_timeout">开锁超时</string>
+
+    <string name="Reminder">温馨提示</string>
+    <string name="Please_click_the_fingerprint_verification_to_enter_the_setup_interface">请按指纹验证进入设置界面</string>
+    <string name="Please_validate_the_entry_by_fingerprint">请按指纹验证进入存件界面</string>
+    <string name="Please_verify_the_entry_by_fingerprint">请按指纹验证进入取件界面</string>
+    <string name="Add_administrator_fingerprin">添加管理员/指纹</string>
+    <string name="Add_user_fingerprint">添加用户/指纹</string>
+    <string name="View_all_users">查看所有用户</string>
+    <string name="Delete_all_normal_users">删除全部普通用户</string>
+    <string name="Delete_all_administrator_users">删除全部管理员用户</string>
+    <string name="Initialized_cargo_grid">初始化货格</string>
+    <string name="Open_door_closed_door">开门通/闭门通</string>
+    <string name="Door_opening_closing_door_setup">开门通/关门通设置</string>
+    <string name="Lock_control_board_protocol">锁控板协议</string>
+    <string name="Lock_control_board_protocol_settings">锁控板协议设置</string>
+    <string name="Insufficient_user_privileges">用户权限不足</string>
+    <string name="User_list_is_empty">用户列表为空</string>
+    <string name="There_is_no_outstanding_memory_record">没有未取的存件记录</string>
+    <string name="Setup_completion">设置完成</string>
+    <string name="Initialize_the_number_of_goods">初始化货格数量</string>
+    <string name="The_number_of_cabinet_grid_can_not_be_empty">柜子数量/格子数量不能为空</string>
+    <string name="Initializing_data_please_wait_later">正在初始化数据，请稍后</string>
+    <string name="Data_initialization_completed">数据初始化完成</string>
+    <string name="Please_enter_user_numbers">请输入用户编号</string>
+    <string name="The_user_already_exists_Please_add_the_fingerprint">该用户已存在,请添加指纹</string>
+    <string name="user_does_not_exist">用户不存在</string>
+    <string name="Fingerprint_verification_success">指纹验证成功</string>
+    <string name="Abnormal_user_information">用户信息异常</string>
+
+    <string name="Quantity_of_available_goods">可用货格数量</string>
+    <string name="There_is_no_available_lattice">没有可用的格子</string>
+    <string name="Deletion_of_fingerprint_ID_succeeded">删除指纹ID成功</string>
+    <string name="Deletion_of_fingerprint_ID_failed">删除指纹ID失败</string>
+    <string name="Delete_success">删除成功</string>
+    <string name="Delete_failure">删除失败</string>
+    <string name="Your_device_does_not_support_USB_HOST">您的设备不支持USB HOST！</string>
+    <string name="Application_USB_not_granted_authority">应用USB未授权限</string>
+
+    <string name="Add_super_administrator">添加超级管理员</string>
+    <string name="Scavenging_data">清除数据</string>
+    <string name="Serial_address_setup">串口地址设置</string>
+    <string name="User_number">用户编号</string>
+    <string name="Please_enter">请输入</string>
+    <string name="User_authentication_add">用户验证/添加</string>
+    <string name="Fingerprint_number">指纹编号</string>
+    <string name="Fingerprint_verification">指纹编号验证</string>
+    <string name="Please_verify_that_the_fingerprint_number_exists">请验证该指纹编号是否存在</string>
+    <string name="After_successful_fingerprint_verification_please_input_3_fingerprints_on_the_fingerprint_module_according_to_the_prompts">指纹编号验证成功后，请按照提示，在指纹模块上录入3次指纹</string>
+
+    <string name="Read_serial_number">读取序列号</string>
+    <string name="Get_the_total_number_of_users">获取用户总数</string>
+    <string name="Acquiring_fingerprint_capacity">获取指纹容量</string>
+    <string name="Contrast_1_N">对比 1：N</string>
+    <string name="Delete_all_users">删除所有用户</string>
+    <string name="serial_number">序列号</string>
+    <string name="User__number">用户号</string>
+    <string name="Modify_serial_number">修改序列号</string>
+    <string name="Setting_up_serial_port_information">设置串口信息</string>
+    <string name="Add_fingerprint_1">添加指纹1</string>
+    <string name="Add_fingerprint_2">添加指纹2</string>
+    <string name="Add_fingerprint_3">添加指纹3</string>
+    <string name="delete_user">删除用户</string>
+
+    <string name="Payment_failed">付款失败</string>
+    <string name="Payment_by_credit_card">刷卡支付</string>
+
+    <string name="Already_opened_number">编号 [ %1$s ] 已经打开</string>
+    <string name="have_access_to_number">编号 [ %1$s ]</string>
+
+    <string name="Please_swipe_the_employee_card">请刷员工卡</string>
+    <string name="Failure_of_locking_board_connection">锁定板连接故障</string>
+
+</resources>
